@@ -76,7 +76,7 @@
 
 ```text
 smart-garbage-classifier-platform/
-├─ README.md          # 專案說明（本文件）
-├─ index.html         # 主畫面
-├─ style.css          # 頁面樣式
-└─ main.js            # 分類邏輯與前端互動
+│── index.html   
+│── style.css
+│── main.js
+│── README.md
