@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>智慧垃圾分類平台</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>智慧垃圾分類平台</h1>
+      <p class="subtitle">輸入垃圾描述，系統會給出分類建議</p>
+    </header>
 
+    <main>
+      <!-- 輸入區 -->
+      <section class="card">
+        <h2>垃圾描述輸入</h2>
+        <label for="garbageInput">請輸入垃圾名稱或描述：</label>
+        <textarea id="garbageInput" rows="3" placeholder="例如：用完的牙膏、喝完的珍珠奶茶杯、吃剩的菜葉"></textarea>
+        <button id="classifyBtn">開始分類</button>
+      </section>
+
+      <!-- 結果顯示區 -->
+      <section class="card">
+        <h2>分類結果</h2>
+        <div id="resultBox" class="result-box">
+          <p class="placeholder">目前尚未分類，請先輸入垃圾描述。</p>
+        </div>
+      </section>
+
+      <!-- 歷史紀錄區 -->
+      <section class="card">
+        <h2>歷史紀錄（本次使用暫存）</h2>
+        <ul id="historyList" class="history-list">
+          <li class="placeholder">尚無紀錄。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>作者：<span class="author">（你的名字）</span>｜本作品作為資工系轉學考書面審查個人作品</p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
