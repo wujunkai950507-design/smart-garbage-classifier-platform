@@ -1,4 +1,4 @@
-# 智慧垃圾分類 AI 平台（Smart Garbage Classifier Platform）
+# 智慧垃圾分類平台（Smart Garbage Classifier Platform）
 
 ## 一、作品簡介
 
